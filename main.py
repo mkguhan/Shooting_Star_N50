@@ -94,6 +94,6 @@ if __name__ == "__main__" :
             data_new = data_new.assign(shooting_star=data_new.apply(is_shooting_star,axis=1))
             #data_91 = [data[]
             tickers_ohlc[script] = data_new
-            print(tickers_ohlc)
+            print(tickers_ohlc) 
            
             
